@@ -65,6 +65,8 @@ Example statistics include: number of rows, types of data used, etc, and the dat
 
 A **wireframe** of the final app is shown below.
 
+![](./images/wireframe.png)
+
 ## Work break down structure
 
 This is the current work-breakdown structure for the project.  
