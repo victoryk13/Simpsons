@@ -16,6 +16,11 @@ For this project, we'll use ['The Simspons By the Data'](https://www.kaggle.com/
 > 
 > What are the general topics that are being discussed at the various locations/settings of the episode?  For example, what are the top 10 topics that the characters discuss while at Moe's Tavern?  
 
+Other data sources for this project include:
+
+* [Simpsonswiki.org](https://simpsonswiki.com/wiki/Main_Page)
+* [Simpsons API](https://thesimpsonsquoteapi.glitch.me)
+
 ## Team Members and Location of Repo
 
 The project team includes four members.  The proposed team name is *The Simpsons*.
@@ -57,7 +62,7 @@ The final deliverable will have three panes each displaying data related to the 
 
 Example statistics include: number of rows, types of data used, etc, and the data will be presented in the form of bar/line charts.  This pane will not have functionality.
 
-**Pane 2.**  This pane will show some of the results related the language patterns from each of the characters.  For example, the *first* view will show the Flesch Reading Ease and Flesch-Kincaid Grade Level metrics for a given character along with some copy about what the values mean.  The *second* view will show the overall number of lines that the character has spoken during the time period of the dataset. The *thrid* and the final view will display [INSERT VIEW HERE].  Since all of these views are related to the character, we will have a dropdown list of all of the characters in the dataset.  The three views will update using the `onchange` function within the `js` file. 
+**Pane 2.**  This pane will show some of the results related the language patterns from each of the characters.  For example, the *first* view will show the Flesch Reading Ease and Flesch-Kincaid Grade Level metrics for a given character along with some copy about what the values mean.  The *second* view will be a word cloud of the script for that character. The *thrid* and the final view will display some of the metdata from the character.  Since all of these views are related to the character, we will have a dropdown list of all of the characters in the dataset.  The three views will update using the `onchange` function within the `js` file. 
 
 **Pane 3.** The pane will show the results of the topics that are discussed in a select location.  For this pane, we will need to conduct an [Latent Dirichlet allocation (LDA)](https://www.wikiwand.com/en/Latent_Dirichlet_allocation)-based topic model using sk-learn.  The data will be displayed as an unordered list of the top 10 topics found at each location.  The contents of the list will update using the `onchange` function within the `js` file.
 
@@ -71,28 +76,33 @@ A **wireframe** of the final app is shown below.
 
 This is the current work-breakdown structure for the project.  
 
-1.  Download data from Kaggle and other Internet sites and load into a SQLite file.
+1.  Download data from Kaggle and other Internet sites and load into a SQLite file. **Victor**
 
-2.  Query SQL database and find descriptive statistics for the dataset.
+2.  Query SQL database and find descriptive statistics for the dataset. **Victor**
 
-3.  Create API Routes using Flask
+3.  Investigate other sources for character metadata. **Victor**
 
-* List of character names
-* List of locations
-* Create Flesch Reading Ease and Flesch-Kincaid Grade Level metrics for each character using NLTK.
-* Create top 10 list of the topics from each location using (LDA and Countvectorizer or [tf-idf](https://nlp.stanford.edu/IR-book/html/htmledition/tf-idf-weighting-1.html))
+4.  Investigate the inner monologue of characters. **Felipe**
 
-4.  Code in user interaction using javascript.  Use the `d3.json` functions to make the API calls to the respective endpoints.
+5.  Create API Routes using Flask **All**
 
-4.  Create final dashboard using HTML/CSS/Bootstrap.  We'll include a nav bar as well as a 'sticky' footer. 
+* List of character names **Grant**
+* List of locations **Grant**
+* Create Flesch Reading Ease and Flesch-Kincaid Grade Level metrics for each character using NLTK. **Felipe**
+* Create top 10 list of the topics from each location using (LDA and Countvectorizer or [tf-idf](https://nlp.stanford.edu/IR-book/html/htmledition/tf-idf-weighting-1.html)) **Grant**
+* Create list of inner monologues for characters. **Felipe**
+* Create list of words to be used for a word cloud **Sungwon**
 
-6.  Push to Heroku.  For deployment on Heroku, we'll need to be sure that we have the following files inside of the repo. For eash in debugging any problems that arrise during the Heroku deployment, we'll all use a virtual environment. 
+6.  Code in user interaction using javascript.  Use the `d3.json` functions to make the API calls to the respective endpoints. **Sungwon**
+
+7.  Create final dashboard using HTML/CSS/Bootstrap.  We'll include a nav bar as well as a 'sticky' footer. **Sungwon**
+
+8.  Push to Heroku.  For deployment on Heroku, we'll need to be sure that we have the following files inside of the repo. For eash in debugging any problems that arrise during the Heroku deployment, we'll all use a virtual environment. **Grant**
 
 	* runtime.txt
 	* run.sh
 	* requirements.txt
 	* Procfile
-
 
 ## Project Specifications
 
