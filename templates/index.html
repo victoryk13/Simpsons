@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Analyzing 26 Seasons of The Simsons using Natural Language Processing (NLP)</title>
+
+    <!-- Link to Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/stylesheet.css') }}">
+
+    <!-- Link to Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Link to Plotly CDN -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <!-- Link to d3 CDN -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+<body>
+
+    <!-- Area for the Simpsons Quote Generator -->
+    <div class='container'>
+        <center>
+            <blockquote class="blockquote">
+            </blockquote>
+        </center>
+    </div>
+    <hr>
+
+    <div class='container'>
+        <div id='frontMatter'>
+            <p>This is where the statistics of the dataset will go</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class='container'>
+        <div id='characterCharts'>
+            <p>This is where the three character charts will go</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class='container'>
+        <div id='networkCharts'>
+            <p>This is where the network chart will go</p>
+        </div>
+    </div>
+
+    <!-- Footer Code-->
+    <div class='footer'>
+        <p>USC Data Analytics Bootcamp Team: The Simpsons</p>
+    </div>
+
+    <!-- Link to external Javascript file -->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/app.js') }}"></script>
+
+    <!-- Link to jQuery Library -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <!-- Link to Bootstrap Javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <!-- Link to Bootstrap Javascript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
