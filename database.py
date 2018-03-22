@@ -26,3 +26,15 @@ def location():
     queryExpression = session.query(Simpsons_locations)
     locationList = [each.normalized_name for each in queryExpression]
     return locationList
+
+
+def metaData():
+    return metaDataList
+
+
+def metaData():
+    return metaDataList
+
+
+def metaData():
+    return metaDataList
