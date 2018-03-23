@@ -26,7 +26,7 @@ def location():
     queryExpression = session.query(Simpsons_locations)
     locationList = [each.normalized_name for each in queryExpression]
     return locationList
-
+  
 def character_count():
     characterCount = session.query(Simpsons_characters).count()
     return characterCount

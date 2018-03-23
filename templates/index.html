@@ -1,71 +1,269 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <title>Analyzing 26 Seasons of The Simsons using Natural Language Processing (NLP)</title>
+    <head>
+        <meta charset="utf-8">
+        <title>Analyzing 26 Seasons of The Simsons using Natural Language Processing (NLP)</title>
 
-    <!-- Link to Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/stylesheet.css') }}">
+        <!-- Link to Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/stylesheet.css') }}">
 
-    <!-- Link to Bootstrap CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- Link to Bootstrap CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- Link to Plotly CDN -->
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <!-- Link to Plotly CDN -->
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
-    <!-- Link to d3 CDN -->
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-</head>
-<body>
+        <!-- Link to d3 CDN -->
+        <script src="https://d3js.org/d3.v4.min.js"></script>
 
-    <!-- Area for the Simpsons Quote Generator -->
-    <div class='container'>
-        <center>
-            <blockquote class="blockquote">
-            </blockquote>
-        </center>
-    </div>
-    <hr>
+    </head>
 
-    <div class='container'>
-        <div id='frontMatter'>
-            <p>This is where the statistics of the dataset will go</p>
+    <body>
+
+      <!--Nav Bar-->
+      <div class='container'>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Team The Simpsons</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="#">About</a>
+              <a class="nav-item nav-link" href="#">Contact</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+        <!-- Jumbotron -->
+        <div class="container">
+            <div class="jumbotron">
+
+                  <h1 class="display-4">The Simpsons x Natural Language Processing</h1>
+                    <p class="lead">Analyzing 26 Seasons of The Simpsons Using Natural Language Processing (NLP)</p>
+
+                  <hr class="my-4">
+
+                  <p>For our second project, we analyzed the language patterns and complexity from the characters of The Simpsons over the page 26 seasons.</p>
+
+                  <p class="lead">
+                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn More About Team Simpsons</a>
+                  </p>
+            </div>
         </div>
-    </div>
 
-    <hr>
 
-    <div class='container'>
-        <div id='characterCharts'>
-            <p>This is where the three character charts will go</p>
+        <!-- Summary Container -->
+        <div class='container'>
+            <div id='frontMatter'>
+                <div class='row'>
+                    <div class="col-sm-4">
+                        <div id='chart1'>
+                            <h2>Summary 1</h2>
+                            <p>
+                            Lorem ipsum dolor sit amet, cu eam sale errem deleniti, cum an exerci volutpat. Eum cu constituam delicatissimi, vel error nonumes ex. No simul blandit ancillae duo, dicit percipitur nec ea. Sonet intellegam conclusionemque et nec, ea mazim constituto mei, qui accumsan accusata id. Ex vel mazim doctus reformidans.
+
+                            <br>
+
+                            Vide duis definitiones eu nam, pri id sint causae. Meis labitur concludaturque eu eam. Tota lucilius ut vis. Id aliquando conclusionemque sed, qui atqui iusto noluisse id, vero vide mel eu. Unum eirmod nusquam eos ex, usu cu ludus conclusionemque. At appetere suscipiantur sit, option delicata ei eam.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div id='chart1'>
+                            <h2>Summary 2</h2>
+                            <p>
+                            Lorem ipsum dolor sit amet, cu eam sale errem deleniti, cum an exerci volutpat. Eum cu constituam delicatissimi, vel error nonumes ex. No simul blandit ancillae duo, dicit percipitur nec ea. Sonet intellegam conclusionemque et nec, ea mazim constituto mei, qui accumsan accusata id. Ex vel mazim doctus reformidans.
+
+                            <br>
+
+                            Vide duis definitiones eu nam, pri id sint causae. Meis labitur concludaturque eu eam. Tota lucilius ut vis. Id aliquando conclusionemque sed, qui atqui iusto noluisse id, vero vide mel eu. Unum eirmod nusquam eos ex, usu cu ludus conclusionemque. At appetere suscipiantur sit, option delicata ei eam.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-4">
+                        <div id='chart1'>
+                            <h2>Summary 3</h2>
+                            <p>
+                            Lorem ipsum dolor sit amet, cu eam sale errem deleniti, cum an exerci volutpat. Eum cu constituam delicatissimi, vel error nonumes ex. No simul blandit ancillae duo, dicit percipitur nec ea. Sonet intellegam conclusionemque et nec, ea mazim constituto mei, qui accumsan accusata id. Ex vel mazim doctus reformidans.
+
+                            <br>
+
+                            Vide duis definitiones eu nam, pri id sint causae. Meis labitur concludaturque eu eam. Tota lucilius ut vis. Id aliquando conclusionemque sed, qui atqui iusto noluisse id, vero vide mel eu. Unum eirmod nusquam eos ex, usu cu ludus conclusionemque. At appetere suscipiantur sit, option delicata ei eam.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
 
-    <hr>
+        <br>
+        <br>
+        <br>
 
-    <div class='container'>
-        <div id='networkCharts'>
-            <p>This is where the network chart will go</p>
+        <!-- Area for the Simpsons Quote Generator -->
+        <div class='container'>
+            <div class='quote'>
+                <center>
+                    <blockquote class="blockquote">
+                    </blockquote>
+                </center>
+            </div>
         </div>
-    </div>
 
-    <!-- Footer Code-->
-    <div class='footer'>
-        <p>USC Data Analytics Bootcamp Team: The Simpsons</p>
-    </div>
+        <br>
+        <br>
+        <br>
 
-    <!-- Link to external Javascript file -->
-    <script type="text/javascript" src="{{ url_for('static', filename='js/app.js') }}"></script>
+        <!-- NLP Charts -->
+        <div class='container'>
+            <center>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="dropdown">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Character
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            </center>
+        </div>
 
-    <!-- Link to jQuery Library -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <br>
+        <br>
+        <br>
 
-    <!-- Link to Bootstrap Javascript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <div class='container'>
+            <div id='characterCharts'>
+                <div class="row">
 
-    <!-- Link to Bootstrap Javascript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+                    <div class="col-sm-4">
+                        <div id='chart1'>
+                            <h3>Chart 1</h3>
+                            <img src="https://i.ytimg.com/vi/43P7EEqjTDA/maxresdefault.jpg">
+                        </div>
+                    </div>
 
-</body>
+                    <div class="col-sm-4">
+                        <div id='chart2'>
+                            <h3>Chart 2</h3>
+                            <img src="https://i.ytimg.com/vi/43P7EEqjTDA/maxresdefault.jpg">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div id='chart3'>
+                            <h3>Chart 3</h3>
+                            <img src="https://i.ytimg.com/vi/43P7EEqjTDA/maxresdefault.jpg">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <!-- Network Chart -->
+        <div class='container'>
+            <center>
+                <h2>Network Chart</h2>
+                <img src="https://i.ytimg.com/vi/43P7EEqjTDA/maxresdefault.jpg">
+            </center>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <!-- Team Member Cards -->
+        <div class='container'>
+            <h2>Team Members</h2>
+            <div id='networkCharts'>
+                <div class='row'>
+                    <div class="col-sm-3">
+                        <div class="card" style="width: 18rem;">
+                          <img class="card-img-top" src="https://i.ytimg.com/vi/43P7EEqjTDA/maxresdefault.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Victor Kuo</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="card" style="width: 18rem;">
+                          <img class="card-img-top" src="https://i.ytimg.com/vi/43P7EEqjTDA/maxresdefault.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Sungwon Byun</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="card" style="width: 18rem;">
+                          <img class="card-img-top" src="https://i.ytimg.com/vi/43P7EEqjTDA/maxresdefault.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Felipe Sinohui</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="card" style="width: 18rem;">
+                          <img class="card-img-top" src="https://i.ytimg.com/vi/43P7EEqjTDA/maxresdefault.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Grant Aguinaldo</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <!-- Footer -->
+        <div class='footer'>
+            <p>USC Data Analytics Bootcamp Team: The Simpsons</p>
+        </div>
+
+        <!-- Javascript Links -->
+
+        <!-- Link to external Javascript file -->
+        <script type="text/javascript" src="{{ url_for('static', filename='js/app.js') }}"></script>
+
+        <!-- Link to jQuery Library -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+        <!-- Link to Bootstrap Javascript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+        <!-- Link to Bootstrap Javascript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </body>
 </html>
 
