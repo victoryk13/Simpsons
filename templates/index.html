@@ -241,41 +241,34 @@
         <br>
 
         <!-- NLP Charts -->
-            <div class='container'>
-
-                <div class="col-sm-4" style="width: 480px; height: 200px;">
-                <center>
-                    <h2>Sample Selection</h2>
-                        <select id="simpsonsDropdown" onchange="getSimpsonsData(this.value)">
-                            <option value=#>Select Sample</option>
+        <div class='container'>
+            <center>
+                <div class="col-sm-12" style="width: 480px; height: 200px;">
+                    <h2>Character Selection</h2>
+                        <select name='simpsonsDropdown' id="simpsonsDropdown" onchange="getSimpsonsData(this.value)">
+                            <option value=#>Select Character</option>
                     </select>
-                </center>
-            </div>
-
-
+                </div>
+            </center>
         </div>
 
         <div class='container'>
             <div id='characterCharts'>
                 <div class="row">
-                    <div class="col-sm-4">
-                        <div id='chart1'>
-                            <h3>Chart 1</h3>
-                            <img src="https://i.ytimg.com/vi/43P7EEqjTDA/maxresdefault.jpg">
-                        </div>
+
+                    <div class="col-sm-6">
+                        <h3>Speech Sophstication</h3>
+                            <div id='chart2'>
+                                <!-- <img src="https://i.ytimg.com/vi/43P7EEqjTDA/maxresdefault.jpg"> -->
+                            </div>
                     </div>
 
-                    <div class="col-sm-4">
-                        <div id='chart2'>
-                            <h3>Chart 2</h3>
-                            <img src="https://i.ytimg.com/vi/43P7EEqjTDA/maxresdefault.jpg">
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4">
+                    <div class="col-sm-6">
                         <div id='chart3'>
-                            <h3>Chart 3</h3>
-                            <img src="https://i.ytimg.com/vi/43P7EEqjTDA/maxresdefault.jpg">
+                            <center><h3>Character Metadata</h3></center>
+                            <ul id='metaList'>
+
+                            </ul>
                         </div>
                     </div>
 
@@ -382,21 +375,6 @@
         </div>
 
         <!-- Javascript Links -->
-        <script>
-            function getSimpsonsData() {
-
-            sampleValue = document.getElementById("simpsonsDropdown").value;
-
-            var endPointCharacterData = '/character_metadata/' + sampleValue
-            Plotly.d3.json(endPointCharacterData, function(error, response) {
-
-            if (error) return console.warn(error);
-
-            console.log(response[0]['Occupation'])
-
-                });
-            };
-        </script>
 
         <!-- Link to external Javascript file -->
         <script type="text/javascript" src="{{ url_for('static', filename='js/app.js') }}"></script>
