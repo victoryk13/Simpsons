@@ -1,4 +1,4 @@
-character_name,word_count,sentence count,syllable count,Flesch readability,Flesch-Kincaid grade,gender,status,hair,occupation,first_appearance,img_url
+character_name,word_count,sentence_count,syllable_count,Flesch_readability,Flesch-Kincaid_grade,gender,status,hair,occupation,first_appearance,img_url
 Homer_Simpson,680208,50157,750295,99.75301872,2.714858576,Male,Alive,None (formerly brown),Nuclear Safety Inspector,Good Night,http://www.google.com
 Lisa_Simpson,363224,16981,392796,93.636389,5.512810251,Female,Alive,Blond (yellow),Student at Springfield Elementary,Good Night,http://www.google.com
 Bart_Simpson,217113,20679,244164,101.0376486,1.774899258,Male,Alive,Blond (yellow),Student at Springfield Elementary,Good Night,http://www.google.com
