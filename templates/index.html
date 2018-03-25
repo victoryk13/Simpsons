@@ -93,15 +93,18 @@
 
                             </p>
                           </div>
+
                           <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                           </div>
+
                         </div>
                       </div>
                     </div>
                   </p>
             </div>
         </div>
+
 
         <!-- Summary Container -->
         <div class='container'>
@@ -123,30 +126,35 @@
                     <div class="col-sm-4">
                         <div id='chart1'>
                             <h2>Dataset Summary</h2>
+                                <ul class="list-group">
 
-                            <ul class="list-group">
-                              <li class="list-group-item d-flex justify-content-between align-items-center">
-                                Total Number of Lines Spoken
-                                <span class="badge badge-primary badge-pill">xxx,xxx</span>
-                              </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Total Number of Lines Spoken
+                                        <span class="badge badge-primary badge-pill">xxx,xxx</span>
+                                    </li>
 
-                            <li class="list-group-item d-flex justify-content-between align-items-center">
-                                Total Number Lines in Dataset
-                                <span class="badge badge-primary badge-pill">xxx,xxx</span>
-                              </li>
-                              <li class="list-group-item d-flex justify-content-between align-items-center">
-                                Total Number of Characters
-                                <span class="badge badge-primary badge-pill">6,722</span>
-                              </li>
-                              <li class="list-group-item d-flex justify-content-between align-items-center">
-                                Total Number of Locations
-                                <span class="badge badge-primary badge-pill">4,459</span>
-                              </li>
-                              <li class="list-group-item d-flex justify-content-between align-items-center">
-                                Number of Episodes
-                                <span class="badge badge-primary badge-pill">600</span>
-                              </li>
-                            </ul>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Total Number Lines in Dataset
+                                        <span class="badge badge-primary badge-pill">xxx,xxx</span>
+                                    </li>
+
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Total Number of Characters
+                                        <span class="badge badge-primary badge-pill">6,722</span>
+                                    </li>
+
+                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Total Number of Locations
+                                        <span class="badge badge-primary badge-pill">4,459</span>
+                                  </li>
+
+                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Number of Episodes
+                                        <span class="badge badge-primary badge-pill">600</span>
+                                  </li>
+
+                                </ul>
+
                             <br>
                             <h2>Dataset</h2>
                             <p>
@@ -233,29 +241,19 @@
         <br>
 
         <!-- NLP Charts -->
-        <center>
             <div class='container'>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="dropdown">
-                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Character
-                          </button>
-                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                          </div>
-                        </div>
-                    </div>
-                </div>
+
+                <div class="col-sm-4" style="width: 480px; height: 200px;">
+                <center>
+                    <h2>Sample Selection</h2>
+                        <select id="simpsonsDropdown" onchange="getSimpsonsData(this.value)">
+                            <option value=#>Select Sample</option>
+                    </select>
+                </center>
             </div>
-        </center>
 
 
-        <br>
-        <br>
-        <br>
+        </div>
 
         <div class='container'>
             <div id='characterCharts'>
@@ -291,22 +289,8 @@
 
         <!-- Network Chart -->
         <div class='container'>
-            <center>
-            <h2>Analysis of Homer Simpson's Inner Voices</h2>
-            <div class="row">
-                <div class="col-sm-12">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/WQh9g-ZApRI?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-            </div>
-            </center>
+            <img class='homer' src="https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png" >
         </div>
-
-
-
-
-                <img class='homer' src="https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png" >
-
-
         <br>
         <br>
         <br>
@@ -335,7 +319,7 @@
                           <img class="card-img-top" src="https://s3.amazonaws.com/grantaguinaldo/data/sungwon-project-2.jpg" alt="Card image cap">
                           <div class="card-body">
                             <h5 class="card-title">Sungwon Byun</h5>
-                            <p class="card-text">Word cloud expert.</p>
+                            <p class="card-text">Word cloud wizard.</p>
                             <a href="https://github.com/sungwonb"><i class="fab fa-github"></i></a>
                             <a href="https://www.linkedin.com/in/sungwonbyun/"><i class="fab fa-linkedin"></i></a>
                           </div>
@@ -364,7 +348,7 @@
                           <img class="card-img-top" src="https://s3.amazonaws.com/grantaguinaldo/data/grant-project-2.jpg" alt="Card image cap">
                           <div class="card-body">
                             <h5 class="card-title">Grant Aguinaldo</h5>
-                            <p class="card-text">Front end dev.</p>
+                            <p class="card-text">Front end dev and Heroku problem fixer.</p>
                             <a href="https://github.com/grantaguinaldo"><i class="fab fa-github"></i></a>
                             <a href="https://www.linkedin.com/in/grantaguinaldo/"><i class="fab fa-linkedin"></i></a>
                           </div>
@@ -398,6 +382,21 @@
         </div>
 
         <!-- Javascript Links -->
+        <script>
+            function getSimpsonsData() {
+
+            sampleValue = document.getElementById("simpsonsDropdown").value;
+
+            var endPointCharacterData = '/character_metadata/' + sampleValue
+            Plotly.d3.json(endPointCharacterData, function(error, response) {
+
+            if (error) return console.warn(error);
+
+            console.log(response[0]['Occupation'])
+
+                });
+            };
+        </script>
 
         <!-- Link to external Javascript file -->
         <script type="text/javascript" src="{{ url_for('static', filename='js/app.js') }}"></script>
