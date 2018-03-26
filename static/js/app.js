@@ -120,6 +120,41 @@ function appendInnerHMTL(response) {
 
 }
 
+function graphScatterPlot(response){
+
+    var trace = {
+        x: [8, response[0]['Flesch-Kincaid Grade']],
+        y: [49, response[0]['Flesch Readability']],
+        mode: 'markers',
+        type: 'scatter',
+        marker: { size: 20 },
+        text: ['Average Human', response[0]['Character Name']],
+        name: ['Average Human', response[0]['Character Name']]
+    };
+
+    var data = [trace];
+
+    var layout = {
+          // title: '',
+          showlegend: false,
+          height: 600,
+          width: 500,
+          xaxis: {
+            range: [ 0, 12 ],
+            title: 'Flesch-Kincaid Grade'
+          },
+
+          yaxis: {
+            range: [ -3.50, 120 ],
+            title: 'Flesch Readability'
+          },
+
+        };
+
+    return Plotly.newPlot('scatterPlot', data, layout);
+};
+
+
 function getSimpsonsData() {
 
         sampleValue = document.getElementById("simpsonsDropdown").value;
@@ -132,6 +167,7 @@ function getSimpsonsData() {
             if (error) return console.warn(error);
 
             appendInnerHMTL(response)
+            graphScatterPlot(response)
 
         });
 };
