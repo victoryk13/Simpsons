@@ -118,6 +118,15 @@ function appendInnerHMTL(response) {
               .text(response[0]['Status'])
 
 
+};
+
+function addWordCloud(response){
+
+  document.getElementById("wordCloud").innerHTML = ""
+  d3.select('#wordCloud')
+    .append('img')
+    .attr('src', response[0]['Image URL'])
+
 }
 
 function graphScatterPlot(response){
@@ -168,6 +177,7 @@ function getSimpsonsData() {
 
             appendInnerHMTL(response)
             graphScatterPlot(response)
+            addWordCloud(response)
 
         });
 };
