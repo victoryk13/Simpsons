@@ -1,51 +1,51 @@
-character_name,word_count,sentence_count,syllable_count,Flesch_readability,Flesch-Kincaid_grade,gender,status,hair,occupation,first_appearance,img_url
-Homer_Simpson,680208,50157,750295,99.75301872,2.714858576,Male,Alive,None (formerly brown),Nuclear Safety Inspector,Good Night,http://www.google.com
-Lisa_Simpson,363224,16981,392796,93.636389,5.512810251,Female,Alive,Blond (yellow),Student at Springfield Elementary,Good Night,http://www.google.com
-Bart_Simpson,217113,20679,244164,101.0376486,1.774899258,Male,Alive,Blond (yellow),Student at Springfield Elementary,Good Night,http://www.google.com
-Marge_Simpson,124710,20836,160040,92.19295909,1.887179959,Female,Alive,Blue (naturally gray),Housewife,Good Night,http://www.google.com
-C_Montgomery_Burns,36212,5979,47940,88.68817314,2.393719539,Male,Alive,"Gray, balding",Owner of Springfield Nuclear Power Plant,Simpsons Roasting on an Open Fire,http://www.google.com
-Moe_Szyslak,32855,5548,40553,96.40224758,1.284328402,Male,Alive,Gray,Bartender of Moe's Tavern,Simpsons Roasting on an Open Fire,http://www.google.com
-Seymour_Skinner,28138,4402,38187,85.5335974,2.917082753,Male,Alive,Gray,Principal of Springfield Elementary,Simpsons Roasting on an Open Fire,http://www.google.com
-Ned_Flanders,22909,3589,28872,93.73554367,1.770845321,Male,Alive,Brown,Owner of Leftorium and FlanCrest Enterprises,Simpsons Roasting on an Open Fire,http://www.google.com
-Krusty_The_Clown,20701,3483,26224,93.63123837,1.676166153,Male,Alive,Green,Television personality,The Krusty the Clown Show,http://www.google.com
-Chief_Wiggum,19992,3409,25261,93.98576775,1.607099772,Male,Alive,"Blue, originally black",Police chief,Homer's Odyssey,http://www.google.com
-Grampa_Simpson,19510,3224,24344,95.13136518,1.49377106,Male,Alive,"Blondish, formerly brown",World War II Veteran,Grampa & the Kids,http://www.google.com
-Kent_Brockman,15998,1694,22992,75.66402331,5.051848529,Male,Alive,White (toupee),Channel 6 anchorman,The Telltale Head,http://www.google.com
-Milhouse_Van_Houten,14543,2766,18215,95.5374858,1.239944229,Male,Alive,Blue,Student at Springfield Elementary,The Butterfinger Group,http://www.google.com
-Apu_Nahasapeemapetilon,11483,1754,14930,90.19457689,2.305390584,Male,Alive,Black,Kwik-E-Mart clerk,The Telltale Head,http://www.google.com
-Lenny_Leonard,9852,1698,12488,93.71028167,1.630033514,Male,Alive,Dark brown,Co-worker of Homer at the Springfield Nuclear Power Plant,Life on the Fast Lane,http://www.google.com
-Waylon_Smithers,9533,1678,12454,90.54638637,2.041285459,Male,Alive,Gray,Assistant to Montgomery Burns,Homer's Odyssey,http://www.google.com
-Nelson_Muntz,8475,1824,10357,98.73223243,0.642454598,Male,Alive,Brown,Student at Springfield Elementary,Bart the General,http://www.google.com
-Dr_Julius_Hibbert,7779,1095,10447,86.00867123,3.02770391,Male,Alive,Black,Doctor,Bart the Daredevil,http://www.google.com
-Edna_Krabappel-Flanders,7300,1193,9514,90.36604994,2.175215308,Female,Deceased,Brown,Fourth grade teacher at Springfield Elementary,Bart the Genius,http://www.google.com
-Carl_Carlson,7150,1218,9211,91.89056876,1.900779496,Male,Alive,Black,Springfield Nuclear Power Plant worker,Homer's Night Out,http://www.google.com
-Rev_Timothy_Lovejoy,6864,964,9121,87.18994349,2.866970253,Male,Alive,Black,Reverend of the First Church of Springfield,The Telltale Head,http://www.google.com
-Sideshow_Bob,6402,963,8476,88.08018252,2.625453173,Male,Alive,Red,Criminal Mastermind,The Telltale Head,http://www.google.com
-Mayor_Joe_Quimby,6135,815,8521,81.69218024,3.734976325,Male,Alive,Brown,Mayor of Springfield,The Call of the Simpsons,http://www.google.com
-Comic_Book_Guy,5719,894,7685,86.65931508,2.761309206,Male,Alive,Brown,Owner of the Android's Dungeon & Baseball Card Shop,Three Men and a Comic Book,http://www.google.com
-Gary_Chalmers,5668,919,7609,87.00374146,2.656249905,Male,Alive,Gray (balding; toupee),Super-duperintendent of Springfield Elementary School,Whacking Day,http://www.google.com
-Selma_Bouvier,4928,839,6204,94.36787885,1.556084199,Female,Alive,"Gray, naturally sandy blonde",Springfield DMV Employee,Simpsons Roasting on an Open Fire,http://www.google.com
-Professor_Jonathan_Frink,4817,640,6458,85.77498685,3.165247272,Male,Alive,Brown,College Professor at Springfield Heights Institute of Technology,Old Money,http://www.google.com
-Groundskeeper_Willie,4804,883,5824,98.75031702,0.837224161,Male,Alive,Red,Groundskeeper and Janitor at Springfield Elementary School,Principal Charming,http://www.google.com
-Barney_Gumble,4458,869,5533,96.62761119,1.056159852,Male,Alive,Messy brown,Unemployed,Simpsons Roasting on an Open Fire,http://www.google.com
-Patty_Bouvier,3793,679,4842,93.1678989,1.652033523,Female,Alive,"Gray, naturally red",Springfield DMV Employee,Simpsons Roasting on an Open Fire,http://www.google.com
-Martin_Prince,3716,589,4996,86.69035488,2.735094914,Male,Alive,Blond,Student,Bart the Genius,http://www.google.com
-Otto_Mann,3579,699,4449,96.47306347,1.075265947,Male,Alive,Black,School bus driver,Homer's Odyssey,http://www.google.com
-Sideshow_Mel,3359,542,4531,86.42655092,2.744170351,Male,Alive,Green,Children's entertainer,Itchy & Scratchy & Marge,http://www.google.com
-Ralph_Wiggum,3022,611,3686,98.62633552,0.731656223,Male,Alive,Black,Student at Springfield Elementary,Simpsons Roasting on an Open Fire,http://www.google.com
-Fat_Tony,2973,449,3851,90.5298383,2.277168668,Male,Deceased,Gray,Caporegime of the Springfield Mafia,Bart the Murderer,http://www.google.com
-Lou,2702,458,3396,94.51770563,1.5416217,Male,Alive,Black,Police officer,There's No Disgrace Like Home,http://www.google.com
-Jimbo_Jones,2657,491,3359,94.39044771,1.438099552,Male,Alive,Brown,School Bully,The Telltale Head,http://www.google.com
-Troy_McClure,2601,303,3660,79.07709651,4.362204712,Male,Alive,Ginger,B-movie Actor,Homer vs. Lisa and the 8th Commandment,http://www.google.com
-Kirk_Van_Houten,2507,417,3134,94.97439336,1.505852964,Male,Alive,"Blue, balding",Unemployed,Bart's Friend Falls in Love,http://www.google.com
-Agnes_Skinner,2462,435,3046,96.42274601,1.216335528,Female,Alive,Gray (wig),Mother of Seymour Skinner,The Telltale Head,http://www.google.com
-Cletus_Spuckler,2321,383,2850,96.80209956,1.262864571,Male,Alive,Brown,Farmer,Bart Gets an Elephant,http://www.google.com
-Gil_Gunderson,2186,363,2622,99.24907184,0.912117457,Male,Alive,Gray,Various,Realty Bites,http://www.google.com
-Lionel_Hutz,2116,351,2793,89.04888035,2.336441924,Male,Alive,Brown,Various,Bart Gets Hit by a Car,http://www.google.com
-Snake_Jailbird,1928,389,2408,96.14211666,1.080715634,Male,Alive,Brown,Criminal,The War of the Simpsons,http://www.google.com
-Kearney_Zzyzwicz,1826,355,2266,96.62864093,1.059401663,Male,Alive,Buzz cut (Shaved),School bully,The Telltale Head,http://www.google.com
-The_Rich_Texan,1704,297,2134,95.06297411,1.425275288,Male,Alive,White,Business Owner,"$pringfield (Or, How I Learned to Stop Worrying and Love Legalized Gambling)",http://www.google.com
-Herb,1686,277,2201,90.21542075,2.1881797,Male,Alive,Brown,Businessman,"Oh Brother, Where Art Thou?",http://www.google.com
-Miss_Hoover,1499,252,2026,86.45473269,2.678379952,Female,Alive,Brown (formerly blue and red),Teacher at Springfield Elementary,Brush with Greatness,http://www.google.com
-Dolph,1438,262,1786,96.19068681,1.206167175,Male,Alive,Red (sometimes brown),Student of Springfield Elementary School,The Telltale Head,http://www.google.com
-Captain_Horatio_McCallister,1386,255,1719,96.39220244,1.164829641,Male,Alive,Gray,Entrepreneur,New Kid on the Block,http://www.google.com
+character_name,word_count,sentence_count,syllable_count,Flesch_readability,Flesch_Kincaid_grade,gender,status,hair,occupation,first_appearance,img_url
+Homer_Simpson,680208,50157,750295,99.75,2.71,Male,Alive,None (formerly brown),Nuclear Safety Inspector,Good Night,https://s3.amazonaws.com/grantaguinaldo/data/wc/homer_simpson_wc.jpg
+Lisa_Simpson,363224,16981,392796,93.64,5.51,Female,Alive,Blond (yellow),Student at Springfield Elementary,Good Night,https://s3.amazonaws.com/grantaguinaldo/data/wc/lisa_simpson_wc.jpg
+Bart_Simpson,217113,20679,244164,101.04,1.77,Male,Alive,Blond (yellow),Student at Springfield Elementary,Good Night,https://s3.amazonaws.com/grantaguinaldo/data/wc/bart_simpson_wc.jpg
+Marge_Simpson,124710,20836,160040,92.19,1.89,Female,Alive,Blue (naturally gray),Housewife,Good Night,https://s3.amazonaws.com/grantaguinaldo/data/wc/marge_simpson_wc.jpg
+C_Montgomery_Burns,36212,5979,47940,88.69,2.39,Male,Alive,"Gray, balding",Owner of Springfield Nuclear Power Plant,Simpsons Roasting on an Open Fire,https://s3.amazonaws.com/grantaguinaldo/data/wc/c_montgomery_burns_wc.jpg
+Moe_Szyslak,32855,5548,40553,96.4,1.28,Male,Alive,Gray,Bartender of Moe's Tavern,Simpsons Roasting on an Open Fire,https://s3.amazonaws.com/grantaguinaldo/data/wc/moe_szyslak_wc.jpg
+Seymour_Skinner,28138,4402,38187,85.53,2.92,Male,Alive,Gray,Principal of Springfield Elementary,Simpsons Roasting on an Open Fire,https://s3.amazonaws.com/grantaguinaldo/data/wc/seymour_skinner_wc.jpg
+Ned_Flanders,22909,3589,28872,93.74,1.77,Male,Alive,Brown,Owner of Leftorium and FlanCrest Enterprises,Simpsons Roasting on an Open Fire,https://s3.amazonaws.com/grantaguinaldo/data/wc/ned_flanders_wc.jpg
+Krusty_The_Clown,20701,3483,26224,93.63,1.68,Male,Alive,Green,Television personality,The Krusty the Clown Show,https://s3.amazonaws.com/grantaguinaldo/data/wc/krusty_the_clown_wc.jpg
+Chief_Wiggum,19992,3409,25261,93.99,1.61,Male,Alive,"Blue, originally black",Police chief,Homer's Odyssey,https://s3.amazonaws.com/grantaguinaldo/data/wc/chief_wiggum_wc.jpg
+Grampa_Simpson,19510,3224,24344,95.13,1.49,Male,Alive,"Blondish, formerly brown",World War II Veteran,Grampa & the Kids,https://s3.amazonaws.com/grantaguinaldo/data/wc/grampa_simpson_wc.jpg
+Kent_Brockman,15998,1694,22992,75.66,5.05,Male,Alive,White (toupee),Channel 6 anchorman,The Telltale Head,https://s3.amazonaws.com/grantaguinaldo/data/wc/kent_brockman_wc.jpg
+Milhouse_Van_Houten,14543,2766,18215,95.54,1.24,Male,Alive,Blue,Student at Springfield Elementary,The Butterfinger Group,https://s3.amazonaws.com/grantaguinaldo/data/wc/milhouse_van_houten_wc.jpg
+Apu_Nahasapeemapetilon,11483,1754,14930,90.19,2.31,Male,Alive,Black,Kwik-E-Mart clerk,The Telltale Head,https://s3.amazonaws.com/grantaguinaldo/data/wc/apu_nahasapeemapetilon_wc.jpg
+Lenny_Leonard,9852,1698,12488,93.71,1.63,Male,Alive,Dark brown,Co-worker of Homer at the Springfield Nuclear Power Plant,Life on the Fast Lane,https://s3.amazonaws.com/grantaguinaldo/data/wc/lenny_leonard_wc.jpg
+Waylon_Smithers,9533,1678,12454,90.55,2.04,Male,Alive,Gray,Assistant to Montgomery Burns,Homer's Odyssey,https://s3.amazonaws.com/grantaguinaldo/data/wc/waylon_smithers_wc.jpg
+Nelson_Muntz,8475,1824,10357,98.73,0.64,Male,Alive,Brown,Student at Springfield Elementary,Bart the General,https://s3.amazonaws.com/grantaguinaldo/data/wc/nelson_muntz_wc.jpg
+Dr_Julius_Hibbert,7779,1095,10447,86.01,3.03,Male,Alive,Black,Doctor,Bart the Daredevil,https://s3.amazonaws.com/grantaguinaldo/data/wc/dr_julius_hibbert_wc.jpg
+Edna_Krabappel_Flanders,7300,1193,9514,90.37,2.18,Female,Deceased,Brown,Fourth grade teacher at Springfield Elementary,Bart the Genius,https://s3.amazonaws.com/grantaguinaldo/data/wc/edna_krabappel-flanders_wc.jpg
+Carl_Carlson,7150,1218,9211,91.89,1.9,Male,Alive,Black,Springfield Nuclear Power Plant worker,Homer's Night Out,https://s3.amazonaws.com/grantaguinaldo/data/wc/carl_carlson_wc.jpg
+Rev_Timothy_Lovejoy,6864,964,9121,87.19,2.87,Male,Alive,Black,Reverend of the First Church of Springfield,The Telltale Head,https://s3.amazonaws.com/grantaguinaldo/data/wc/rev_timothy_lovejoy_wc.jpg
+Sideshow_Bob,6402,963,8476,88.08,2.63,Male,Alive,Red,Criminal Mastermind,The Telltale Head,https://s3.amazonaws.com/grantaguinaldo/data/wc/sideshow_bob_wc.jpg
+Mayor_Joe_Quimby,6135,815,8521,81.69,3.73,Male,Alive,Brown,Mayor of Springfield,The Call of the Simpsons,https://s3.amazonaws.com/grantaguinaldo/data/wc/mayor_joe_quimby_wc.jpg
+Comic_Book_Guy,5719,894,7685,86.66,2.76,Male,Alive,Brown,Owner of the Android's Dungeon & Baseball Card Shop,Three Men and a Comic Book,https://s3.amazonaws.com/grantaguinaldo/data/wc/comic_book_guy_wc.jpg
+Gary_Chalmers,5668,919,7609,87,2.66,Male,Alive,Gray (balding; toupee),Super-duperintendent of Springfield Elementary School,Whacking Day,https://s3.amazonaws.com/grantaguinaldo/data/wc/gary_chalmers_wc.jpg
+Selma_Bouvier,4928,839,6204,94.37,1.56,Female,Alive,"Gray, naturally sandy blonde",Springfield DMV Employee,Simpsons Roasting on an Open Fire,https://s3.amazonaws.com/grantaguinaldo/data/wc/selma_bouvier_wc.jpg
+Professor_Jonathan_Frink,4817,640,6458,85.77,3.17,Male,Alive,Brown,College Professor at Springfield Heights Institute of Technology,Old Money,https://s3.amazonaws.com/grantaguinaldo/data/wc/professor_jonathan_frink_wc.jpg
+Groundskeeper_Willie,4804,883,5824,98.75,0.84,Male,Alive,Red,Groundskeeper and Janitor at Springfield Elementary School,Principal Charming,https://s3.amazonaws.com/grantaguinaldo/data/wc/groundskeeper_willie_wc.jpg
+Barney_Gumble,4458,869,5533,96.63,1.06,Male,Alive,Messy brown,Unemployed,Simpsons Roasting on an Open Fire,https://s3.amazonaws.com/grantaguinaldo/data/wc/barney_gumble_wc.jpg
+Patty_Bouvier,3793,679,4842,93.17,1.65,Female,Alive,"Gray, naturally red",Springfield DMV Employee,Simpsons Roasting on an Open Fire,https://s3.amazonaws.com/grantaguinaldo/data/wc/patty_bouvier_wc.jpg
+Martin_Prince,3716,589,4996,86.69,2.74,Male,Alive,Blond,Student,Bart the Genius,https://s3.amazonaws.com/grantaguinaldo/data/wc/martin_prince_wc.jpg
+Otto_Mann,3579,699,4449,96.47,1.08,Male,Alive,Black,School bus driver,Homer's Odyssey,https://s3.amazonaws.com/grantaguinaldo/data/wc/otto_mann_wc.jpg
+Sideshow_Mel,3359,542,4531,86.43,2.74,Male,Alive,Green,Children's entertainer,Itchy & Scratchy & Marge,https://s3.amazonaws.com/grantaguinaldo/data/wc/sideshow_mel_wc.jpg
+Ralph_Wiggum,3022,611,3686,98.63,0.73,Male,Alive,Black,Student at Springfield Elementary,Simpsons Roasting on an Open Fire,https://s3.amazonaws.com/grantaguinaldo/data/wc/ralph_wiggum_wc.jpg
+Fat_Tony,2973,449,3851,90.53,2.28,Male,Deceased,Gray,Caporegime of the Springfield Mafia,Bart the Murderer,https://s3.amazonaws.com/grantaguinaldo/data/wc/fat_tony_wc.jpg
+Lou,2702,458,3396,94.52,1.54,Male,Alive,Black,Police officer,There's No Disgrace Like Home,https://s3.amazonaws.com/grantaguinaldo/data/wc/lou_wc.jpg
+Jimbo_Jones,2657,491,3359,94.39,1.44,Male,Alive,Brown,School Bully,The Telltale Head,https://s3.amazonaws.com/grantaguinaldo/data/wc/jimbo_jones_wc.jpg
+Troy_McClure,2601,303,3660,79.08,4.36,Male,Alive,Ginger,B-movie Actor,Homer vs. Lisa and the 8th Commandment,https://s3.amazonaws.com/grantaguinaldo/data/wc/troy_mcclure_wc.jpg
+Kirk_Van_Houten,2507,417,3134,94.97,1.51,Male,Alive,"Blue, balding",Unemployed,Bart's Friend Falls in Love,https://s3.amazonaws.com/grantaguinaldo/data/wc/kirk_van_houten_wc.jpg
+Agnes_Skinner,2462,435,3046,96.42,1.22,Female,Alive,Gray (wig),Mother of Seymour Skinner,The Telltale Head,https://s3.amazonaws.com/grantaguinaldo/data/wc/agnes_skinner_wc.jpg
+Cletus_Spuckler,2321,383,2850,96.8,1.26,Male,Alive,Brown,Farmer,Bart Gets an Elephant,https://s3.amazonaws.com/grantaguinaldo/data/wc/cletus_spuckler_wc.jpg
+Gil_Gunderson,2186,363,2622,99.25,0.91,Male,Alive,Gray,Various,Realty Bites,https://s3.amazonaws.com/grantaguinaldo/data/wc/gil_gunderson_wc.jpg
+Lionel_Hutz,2116,351,2793,89.05,2.34,Male,Alive,Brown,Various,Bart Gets Hit by a Car,https://s3.amazonaws.com/grantaguinaldo/data/wc/lionel_hutz_wc.jpg
+Snake_Jailbird,1928,389,2408,96.14,1.08,Male,Alive,Brown,Criminal,The War of the Simpsons,https://s3.amazonaws.com/grantaguinaldo/data/wc/snake_jailbird_wc.jpg
+Kearney_Zzyzwicz,1826,355,2266,96.63,1.06,Male,Alive,Buzz cut (Shaved),School bully,The Telltale Head,https://s3.amazonaws.com/grantaguinaldo/data/wc/kearney_zzyzwicz_wc.jpg
+The_Rich_Texan,1704,297,2134,95.06,1.43,Male,Alive,White,Business Owner,"$pringfield (Or, How I Learned to Stop Worrying and Love Legalized Gambling)",https://s3.amazonaws.com/grantaguinaldo/data/wc/the_rich_texan_wc.jpg
+Herb,1686,277,2201,90.22,2.19,Male,Alive,Brown,Businessman,"Oh Brother, Where Art Thou?",https://s3.amazonaws.com/grantaguinaldo/data/wc/herb_wc.jpg
+Miss_Hoover,1499,252,2026,86.45,2.68,Female,Alive,Brown (formerly blue and red),Teacher at Springfield Elementary,Brush with Greatness,https://s3.amazonaws.com/grantaguinaldo/data/wc/miss_hoover_wc.jpg
+Dolph,1438,262,1786,96.19,1.21,Male,Alive,Red (sometimes brown),Student of Springfield Elementary School,The Telltale Head,https://s3.amazonaws.com/grantaguinaldo/data/wc/dolph_wc.jpg
+Captain_Horatio_McCallister,1386,255,1719,96.39,1.16,Male,Alive,Gray,Entrepreneur,New Kid on the Block,https://s3.amazonaws.com/grantaguinaldo/data/wc/captain_horatio_mccallister_wc.jpg
