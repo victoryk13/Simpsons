@@ -3,10 +3,11 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #808080;
-    color: white;
+    background-color: rgba(255, 217, 15) !important;
+    color: black;
     text-align: center;
     font-size: 12px;
+    font-family: 'Rock Salt', cursive !important;;
 }
 
 img {
@@ -22,6 +23,7 @@ img {
 
 }
 
+
 #homer {
       width: 290px;
       height: 580px;
@@ -31,7 +33,10 @@ img {
     background-color: rgba(255, 217, 15) !important;
     font-family: 'Rock Salt', cursive;
 
-
 }
 
-255,217,15
+h2, h3 {
+
+    font-family: 'Rock Salt', cursive !important;;
+}
+
