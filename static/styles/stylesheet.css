@@ -16,7 +16,8 @@ img {
 
 .quote {
 
-    background-color: #F5F5F5;
+    background-color: rgba(255, 217, 15) !important;
+    font-family: 'Rock Salt', cursive;
     padding: 70px;
 
 }
@@ -26,3 +27,11 @@ img {
       height: 580px;
 }
 
+.jumbotron {
+    background-color: rgba(255, 217, 15) !important;
+    font-family: 'Rock Salt', cursive;
+
+
+}
+
+255,217,15
