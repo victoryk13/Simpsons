@@ -73,3 +73,8 @@ function graphSyllableCount(){
 
   return Plotly.newPlot("syllableChart",data, layout);
 }
+
+graphSyllableCount();
+graphWordCount();
+graphReadability();
+graphgrades();
