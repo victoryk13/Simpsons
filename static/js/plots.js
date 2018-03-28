@@ -63,7 +63,6 @@ function graphSyllableCount(){
     y: dataSet.map(row => row.syllable_count),
     type: "bar"
   };
-
   var data = [trace4];
 
   var layout = {
