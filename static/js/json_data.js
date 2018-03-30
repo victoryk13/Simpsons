@@ -1,6 +1,5 @@
- console.log($dataSet)
+var dataSet = [
 
- var $dataSet = [
     {
         character_name: "Homer_Simpson",
         word_count: "680208",
@@ -193,7 +192,7 @@
         gender: "Male",
         status: "Alive",
         hair: "Black",
-        occupation: "Kwik_E_Mart clerk",
+        occupation: "Kwik-E-Mart clerk",
         first_appearance: "The Telltale Head",
         img_url: "http://www.google.com"
     },
@@ -207,7 +206,7 @@
         gender: "Male",
         status: "Alive",
         hair: "Dark brown",
-        occupation: "Co_worker of Homer at the Springfield Nuclear Power Plant",
+        occupation: "Co-worker of Homer at the Springfield Nuclear Power Plant",
         first_appearance: "Life on the Fast Lane",
         img_url: "http://www.google.com"
     },
@@ -254,7 +253,7 @@
         img_url: "http://www.google.com"
     },
     {
-        character_name: "Edna_Krabappel_Flanders",
+        character_name: "Edna_Krabappel-Flanders",
         word_count: "7300",
         sentence_count: "1193",
         syllable_count: "9514",
@@ -347,7 +346,7 @@
         gender: "Male",
         status: "Alive",
         hair: "Gray (balding; toupee)",
-        occupation: "Super_duperintendent of Springfield Elementary School",
+        occupation: "Super-duperintendent of Springfield Elementary School",
         first_appearance: "Whacking Day",
         img_url: "http://www.google.com"
     },
@@ -529,7 +528,7 @@
         gender: "Male",
         status: "Alive",
         hair: "Ginger",
-        occupation: "B_movie Actor",
+        occupation: "B-movie Actor",
         first_appearance: "Homer vs. Lisa and the 8th Commandment",
         img_url: "http://www.google.com"
     },
