@@ -212,11 +212,33 @@
 
         <!-- Network Chart -->
         <div class='container'>
-            <div id='summaryChart'>
-            <center>
-                <h2>Overall Summary of Speech Sopistication</h2>
-                <img src="https://i.ytimg.com/vi/43P7EEqjTDA/maxresdefault.jpg">
-            </center>
+            <div id='summaryCharts'>
+              <center><h2>Overall Summary of Speech Sopistication</h2></center>
+
+                <div class='row'>
+                    <div class="col-sm-12">
+                       <div id='summaryChart'></div>
+                    </div>
+                </div>
+
+                <div class='row'>
+                    <div class="col-sm-12">
+                       <div id='syllableChart'></div>
+                    </div>
+                </div>
+
+                <div class='row'>
+                    <div class="col-sm-12">
+                       <div id='readabilityChart'></div>
+                    </div>
+                </div>
+
+                <div class='row'>
+                    <div class="col-sm-12">
+                       <div id='wordChart'></div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
@@ -277,7 +299,6 @@
                   <div class="col-sm-12">
                     <center><h2>Character Word Cloud</h2></center>
                       <div id='wordCloud'>
-
 
                       </div>
                   </div>
@@ -499,11 +520,6 @@
             <p>Made With ❤ By Team The Simpsons</p>
         </div>
 
-        <!-- Javascript Links -->
-
-        <!-- Link to external Javascript file -->
-        <script type="text/javascript" src="{{ url_for('static', filename='js/app.js') }}"></script>
-
         <!-- Link to jQuery Library -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
@@ -512,6 +528,15 @@
 
         <!-- Link to Bootstrap Javascript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!-- Link to external Javascript file -->
+
+        <script type="text/javascript" src="./static/js/json_data.js"></script>
+
+        <script type="text/javascript" src="./static/js/app.js"></script>
+
+        <script type="text/javascript" src="./static/js/plots.js"></script>
+
 
     </body>
 </html>
