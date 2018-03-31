@@ -35,3 +35,7 @@ h2, h3 {
     font-family: 'Rock Salt', cursive !important;;
 }
 
+#locationMap {
+    height: 400px;
+}
+
