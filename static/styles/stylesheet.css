@@ -36,7 +36,19 @@ h2, h3 {
 }
 
 #locationMap {
-    height: 500px;
-    width: 950px;
+    height: 600px;
+    width: 1050px;
+    margin-bottom: 100px;
+}
+
+#mapText {
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+}
+
+#mapHeaders {
+    font-size: 14px;
+    font-weight: bold;
 }
 
