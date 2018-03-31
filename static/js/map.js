@@ -1,6 +1,6 @@
 var myMap = L.map("locationMap", {
-    center: [37.09, -95.71],
-    zoom: 5
+    center: [40.42, -3.70],
+    zoom: 2
   });
 
 L.tileLayer(
@@ -10,15 +10,15 @@ L.tileLayer(
 ).addTo(myMap);
 
 
-// for (var i =0; i < mapData.length; i++) {
-//     var place = mapData[i];
-//     var popupText = "<h1>Episodes</h1><hr>";
+for (var i =0; i < mapData.length; i++) {
+    var place = mapData[i];
+    var popupText = "<h1>Episodes</h1><hr>";
 
-//     for (var j=0; j<place.visits.length;j++){
-//         popupText = popupText+"<h2>"+place.visits[j].title+"</h2><br><h3>Season: "+place.visits[j].season+"<br>Episode: "+place.visits[j].episode+"</h3><br><br>";
-//     }
+    for (var j=0; j<place.visits.length;j++){
+        popupText = popupText+"<h2>"+place.visits[j].title+"</h2><br><h3>Season: "+place.visits[j].season+"<br>Episode: "+place.visits[j].episode+"</h3><br><br>";
+    }
 
-//     var marker = L.marker(place.coordinates,{
-//         title: place.location
-//     }).addTo(myMap).bindPopup(popupText);
-// }
+    var marker = L.marker(place.coordinates,{
+        title: place.location
+    }).addTo(myMap).bindPopup(popupText);
+}
